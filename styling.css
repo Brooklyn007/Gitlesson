@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(224, 224, 224);
+}
+.trafficlight{
+    border: 10px solid black;
+    width: 210px;
+display:flex ;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-left: 30px; 
+}
+
+.square {
+    background-color: red;
+    margin: 20px;
+    padding: 20px;
+    padding: 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.triangle {
+    background-color: yellow;
+    margin: 20px;
+    padding: 20px;
+    padding: 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.circle {
+    background-color: green;
+    margin: 20px;
+    padding: 20px;
+    padding: 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.iframe {
+    height: 200px;
+    width: 300px;
+}
+
+#capitalcities {
+    width: 150px;
+    border: 5px solid black;
+}
+
+.london {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: royalblue;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 100px;
+    border-radius: 40px;
+}
+
+#WASHINGTON_DC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: royalblue;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 100px;
+
+    border-radius: 40px;
+}
