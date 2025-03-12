@@ -1,14 +1,15 @@
 body {
     background-color: rgb(224, 224, 224);
 }
-.trafficlight{
+
+.trafficlight {
     border: 10px solid black;
     width: 210px;
-display:flex ;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-margin-left: 30px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30px;
 }
 
 .square {
@@ -21,8 +22,8 @@ margin-left: 30px;
     border-radius: 100%;
     display: flex;
     justify-content: center;
-    align-items:center;
-    
+    align-items: center;
+
 }
 
 .triangle {
@@ -35,7 +36,7 @@ margin-left: 30px;
     border-radius: 100%;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 .circle {
@@ -48,7 +49,7 @@ margin-left: 30px;
     border-radius: 100%;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 .iframe {
@@ -83,14 +84,87 @@ margin-left: 30px;
 
     border-radius: 40px;
 }
-.hello{
+
+.hello {
     background-color: tomato;
 }
 
-h3{
-color: brown;
+h3 {
+    color: brown;
 }
 
-span{
+span {
     color: rgb(13, 231, 38);
 }
+
+.done {
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gone {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+.Flex-container {
+    background-color: antiquewhite;
+    margin-top: 70px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-evenly;
+}
+
+.div-styling-1 {
+    background-color: red;
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+}
+
+.div-styling-2 {
+    border-radius: 20px;
+    background-color: blue;
+    width: 70px;
+    height: 70px;
+}
+
+.heading-display {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-con {
+    display: flex;
+    background-color: rgb(31, 19, 3);
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-basis:; */
+
+}
+
+.items {
+    
+    height: 100px;
+    background-color: aqua;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 150px;
+}
+
+.items:nth-of-type(1) {}
+
+.items:nth-of-type(2) {}
+
+.items:nth-of-type(3) {}
